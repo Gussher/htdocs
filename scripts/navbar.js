@@ -7,6 +7,6 @@ function toggleDropdown() {
 function confirmLogout() {
     var confirmLogout = confirm("¿Seguro que quieres cerrar sesión?");
     if (confirmLogout) {
-        window.location.href = '../index.php';
+        window.location.href = '../index.html';
     }
 }
